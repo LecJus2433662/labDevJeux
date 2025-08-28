@@ -1,7 +1,7 @@
 #include "Transport.h"
 string Transport::to_String()
 {
-	string info;
+	std::string info = Vaisseau::to_String();
 	info.append("jfais du transport");
 	return info;
 }

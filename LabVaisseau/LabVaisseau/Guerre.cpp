@@ -9,7 +9,7 @@ Guerre::~Guerre()
 }
 string Guerre::to_String()
 {
-	string info;
+	std::string info = Vaisseau::to_String();
 	info.append("C'est pas ma guerre");
 	return info;
 }
